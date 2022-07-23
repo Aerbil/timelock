@@ -24,6 +24,7 @@ Run commands per the below to see their usage:
 `./dtlp -h`
 
 
+
 ### TODO for the next person who is willing to take the task:
 
 * Make a tutorial.
@@ -33,4 +34,4 @@ Run commands per the below to see their usage:
 * Don't use key as message, use a symmetric encryption algorithm to encrypt the data with the randomly generated key, time-lock the key, and output encrypted data and time-locked key, like the original algorithm.
 * Inform me on your improved version (I need especially the feature above.).
 
-#### This project is an improved version of https://github.com/Leoniels/stlp. Credits to the original author. No part of the original project is guaranteed to be still same.
+#### This project is unoffical third-party version 0.3 of the project https://github.com/Leoniels/stlp. Credits to the original author. No part of the original project is guaranteed to be still same.
