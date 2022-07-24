@@ -1,5 +1,5 @@
 # Time-lock-encryption
-An implementation of time-lock encryption, an algorithm wihch prevents decryption of data until a specified amount of time passes
+An implementation of time-lock encryption, an algorithm which prevents decryption of data until a specified amount of time passes
 
 
 Time-lock puzzles are cryptographic algorithms which encrypt data in a way that it's not possible to decrypt encrypted data until a certain amount of time passes. A good explanation of the algorithm:
