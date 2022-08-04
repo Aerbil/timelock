@@ -9,7 +9,8 @@ Note that this program differs from the algorithm described in the original pape
 
 ## Dependencies
 · GNU MP (libgmp)
-İnstalling dependencies:
+
+Installing dependencies:
 https://gmplib.org/#DOWNLOAD
 
 ## Build
