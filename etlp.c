@@ -232,8 +232,8 @@ main (int argc, char *argv[])
 	{
 		printf("\nEncrypted message:\n\n");
 		gmp_printf("%Zd-%Zd-%Zd-%Zd-%d-%d-%d\n\n", Ck, a, t, n, hours, mins, secs);
-		printf("You may want to consider deleting the original file containing now encrypted data (if one exists), your terminal history, your ClipIt history (if you use ClipIt and copied the data before its encryption) and emptying your Trash directory (Recycle Bin), if you want to ensure security of the encrypted data, in case someone with an intent to access original data has access to your computer.\n\n");
 	}
+		printf("You may want to consider deleting the original file containing now encrypted data (if one exists), your terminal history, your ClipIt history (if you use ClipIt and copied the data before its encryption) and emptying your Trash directory (Recycle Bin), if you want to ensure security of the encrypted data, in case someone with an intent to access original data has access to your computer.\n\n");
 
 	unsetup();
 
