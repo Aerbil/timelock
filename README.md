@@ -36,6 +36,7 @@ Run commands per the below to see their usage:
 * Encrypt from any kind of data, not just text.
 * Hour, min, second is asked to the user separately and can be provided separately as command option.
 * Option to delete the data automatically from places warned after encryption.
+* If possible, shorten the encrypted message.
 * Encrypted data formatted in a way that it's possible for someone with no knowledge of the algorihthm can write a program and decrypt it. Ck, a, t, n values are clear and human-readable, along with the link to the paper above. Still supporting copy-pasting to decryption prompt.
 * Don't use key as message, use a symmetric encryption algorithm to encrypt the data with the randomly generated key, time-lock the key, and output encrypted data and time-locked key, like the original algorithm. 
 * Inform me on your improved version (I need especially the feature above.).
