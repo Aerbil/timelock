@@ -8,15 +8,13 @@ Note that this program differs from the algorithm described in the original pape
 ## Installation
 Run the following commands in your terminal (this is for Ubuntu):
 
-` wget https://github.com/Aerbil/Time-lock-encryption/a
-rchive/ana.zip \
-`
+```
+wget https://github.com/Aerbil/Time-lock-encryption/archive/ana.zip \ 
+```
 
 ## If you want to build yourself
 1. Install libgmp and libgmp-dev libraries. (exact wording may differ between distros)
-2. Navigate to the `src` folder in the project directory and run:
-
-`make`
+2. Navigate to the `src` folder in the project directory and run `make`.
 
 ## Usage
 Run commands per the below to see their usage:
