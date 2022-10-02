@@ -9,7 +9,15 @@ Note that this program differs from the algorithm described in the original pape
 Run the following commands in your terminal (this is for Ubuntu):
 
 ```
-wget https://github.com/Aerbil/Time-lock-encryption/archive/ana.zip \ 
+sudo apt update \
+sudo apt install -y gcc \
+sudo apt install -y make \
+sudo apt install -y libgmp-dev \
+wget https://github.com/Aerbil/Time-lock-encryption/archive/main.zip \
+unzip main.zip \
+cd Time-lock-encryption-main/src \
+make
+
 ```
 
 ## If you want to build yourself
