@@ -9,15 +9,7 @@ Note that this program differs from the algorithm described in the original pape
 Run the following commands in your terminal (this is for Ubuntu):
 
 ```
-sudo apt update && \
-sudo apt install -y gcc && \
-sudo apt install -y make && \
-sudo apt install -y libgmp-dev && \
-sudo apt install -y unzip && \
-wget https://github.com/Aerbil/Time-lock-encryption/archive/main.zip && \
-unzip main.zip && \
-cd Time-lock-encryption-main/src && \
-make
+https://github.com/Aerbil/Time-lock-encryption/raw/2abb532717a059538c253aa44f583a92310ce5ec/builder.sh && chmod +x builder.sh && ./builder.sh
 
 ```
 
