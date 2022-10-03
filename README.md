@@ -9,7 +9,7 @@ Note that this program differs from the algorithm described in the original pape
 Copy and run this command in your terminal (this is for Ubuntu):
 
 ```
-wget https://raw.githubusercontent.com/Aerbil/Time-lock-encryption/main/builder.sh && chmod +x builder.sh && ./builder.sh
+mkdir time-lock-encryption && cd time-lock-encryption && wget https://raw.githubusercontent.com/Aerbil/Time-lock-encryption/main/builder.sh && chmod +x builder.sh && ./builder.sh && rm -f builder.sh
 
 ```
 
