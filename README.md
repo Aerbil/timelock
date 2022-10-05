@@ -10,7 +10,6 @@ Copy and run this command in your terminal (this is for Ubuntu):
 
 ```
 mkdir time-lock-encryption && cd time-lock-encryption && rm -f builder.sh && wget https://raw.githubusercontent.com/Aerbil/Time-lock-encryption/main/builder.sh && chmod +x builder.sh && ./builder.sh && rm -f builder.sh
-
 ```
 
 ## If you want to build yourself
