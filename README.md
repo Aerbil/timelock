@@ -5,7 +5,7 @@ https://www.cs.tufts.edu/comp/116/archive/fall2013/wclarkson.pdf
 
 Note that this program differs from the algorithm described in the original paper in one aspect. Original algorithm generates a random key, uses it to encrypt data with a symmetric secure encryption algorithm, time-lock-encrypts the key and throws it away, outputting encrypted data and time-lock-encrypted key. This program don't use symmetric encryption, it just time-lock-encrypts the data you give it. This may be theoritcally less secure but I guesstimate practically it's not. Probably this is analogous to you solving one million and one billion math problems in an hour. You can't decrypt either, as both are sufficiently secure, as far as I can guess.
 
-Program is tested only for Ubuntu. Changes may be needed in order to run on other Linux distros or OSes.
+Project is tested only on Ubuntu. Changes may be needed in order to run on other Linux distros or OSes.
 
 ## Installation
 Copy and run this command in your terminal:
