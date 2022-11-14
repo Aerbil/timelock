@@ -12,8 +12,8 @@ Copy and run this command in your terminal:
 
 ```
 
-git clone https://raw.githubusercontent.com/Aerbil/Time-lock-encryption
-chmod +x Time-lock-encryption/builder.sh
+git clone https://github.com/Aerbil/Time-lock-encryption &&
+chmod +x Time-lock-encryption/builder.sh &&
 Time-lock-encryption/builder.sh
 ```
 
