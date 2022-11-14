@@ -22,7 +22,7 @@ Run commands per the below to see their usage:
 
 `./etlp -h`
 
-`./dtlp -h
+`./dtlp -h`
 
 
 
