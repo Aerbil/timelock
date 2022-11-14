@@ -11,4 +11,5 @@ make
 cp ./dtlp ../../
 cp ./etlp ../../
 cd ..
-rm -f builder.sh
+pwd
+rm builder.sh
