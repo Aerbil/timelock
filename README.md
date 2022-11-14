@@ -40,4 +40,4 @@ Run commands per the below to see their usage:
 * Don't use key as message, use a symmetric encryption algorithm to encrypt the data with the randomly generated key, time-lock the key, and output encrypted data and time-locked key, like the original algorithm. 
 * Inform me on your improved version (I need especially the feature above.).
 
-#### This project is a fork of the project https://github.com/Leoniels/stlp.
+#### This project is a fork of https://github.com/Leoniels/stlp.
