@@ -15,16 +15,12 @@ chmod +x Time-lock-encryption/builder.sh
 Time-lock-encryption/builder.sh
 ```
 
-## If you want to build yourself
-1. Install libgmp and libgmp-dev libraries. (exact wording may differ between distros)
-2. Navigate to the `src` folder in the project directory and run `make`.
-
 ## Usage
 Run commands per the below to see their usage:
 
 `./etlp -h`
 
-`./dtlp -h`
+`./dtlp -h
 
 
 
@@ -44,4 +40,4 @@ Run commands per the below to see their usage:
 * Don't use key as message, use a symmetric encryption algorithm to encrypt the data with the randomly generated key, time-lock the key, and output encrypted data and time-locked key, like the original algorithm. 
 * Inform me on your improved version (I need especially the feature above.).
 
-#### This project is unoffical third-party version 0.3 of the project https://github.com/Leoniels/stlp. Credits to the original author. No part of the original project is guaranteed to be still same.
+#### This project is a fork of the project https://github.com/Leoniels/stlp. Credits to the original author. No part of the original project is guaranteed to be still same.
