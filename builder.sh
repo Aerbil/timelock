@@ -10,6 +10,4 @@ cd Time-lock-encryption-main/src
 make
 cp ./dtlp ../../
 cp ./etlp ../../
-cd ..
-pwd
 rm builder.sh
