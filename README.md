@@ -45,3 +45,11 @@ Run commands per the below to see their usage:
 * Inform me on your improved version (I need especially the feature above.).
 
 #### This project is a fork of https://github.com/Leoniels/stlp.
+
+#### Notes to myself
+* Rahat kullanılan, tereddüde meydan vermeyen bir CLI komutu olsun. Ayrıca otomatik iz bırakmayan, kendi yedeğini default kaydeden, github’dan direkt indirilebilen (installer script) vs. Github'da geliştirme fikirleri var. Ek olarak:
+* Rust'la baştan yaz.
+* getopt filan gibi bir şey vardı.
+* Kendini otomatik arkaplana atsın.
+* Tauri’yle basit GUI yap, CLI programını arkaplanda kullanır.
+* Bilgisayar uyutulur veya kapatılırsa CLI programı kaydeder, açınca kaldığı yerden devam eder. (Galiba uyurken zaten oluyor bu.) Veya direkt cache, dakikada veya x seferde bir durumu kaydeder.
