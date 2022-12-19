@@ -13,7 +13,7 @@ Copy and run this command in your terminal:
 ```
 sudo apt update
 sudo apt install -y gcc make libgmp-dev
-git clone github.com/Aerbil/timelock
+git clone https://github.com/Aerbil/timelock
 cd timelock/src
 make
 cd ..
