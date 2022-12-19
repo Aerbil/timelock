@@ -1,4 +1,4 @@
-# Time-lock-encryption
+# timelock
 
 Time-lock puzzles are cryptographic algorithms which encrypt data in a way that it's not possible to decrypt encrypted data until a certain amount of time passes. A good explanation of the algorithm:
 https://www.cs.tufts.edu/comp/116/archive/fall2013/wclarkson.pdf
@@ -12,9 +12,12 @@ Copy and run this command in your terminal:
 
 ```
 
-git clone https://github.com/Aerbil/Time-lock-encryption &&
-chmod +x Time-lock-encryption/builder.sh &&
-Time-lock-encryption/builder.sh
+sudo apt update
+sudo apt install -y gcc make libgmp-dev
+git clone github.com/Aerbil/timelock
+cd timelock/src
+make
+cd ..
 ```
 
 ## Usage

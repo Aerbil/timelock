@@ -1,41 +1,31 @@
-# stlp - time lock puzzle cryptosystem
+# timelock - Time lock encryption tool
 # See COPYING file for copyright and license details.
 
-# stlp version
-VERSION = 0.2
+# timelock version
+VERSION := 0.1
 
-GMP = -lgmp
-LIBS = $(GMP)
+GMP := -lgmp
+LIBS := $(GMP)
 
-CFLAGS   = -std=c17 -pedantic -Wall
-LDFLAGS  = $(LIBS)
+CFLAGS := -std=c17 -pedantic -Wall
+LDFLAGS := $(LIBS)
 
-SRC = etlp.c dtlp.c
-OBJ = $(SRC:.c=o)
-
-all: options stlp
+install: etlp dtlp
+	mv etlp dtlp ../
 
 # Show compile options set
-#options:
-#	echo stlp build options:
-#	echo "CFLAGS  = $(CFLAGS)"
-#	echo "LDFLAGS = $(LDFLAGS)"
-#	echo "CC      = $(CC)"
+options:
+	echo timelock build options:
+	echo "CFLAGS  = $(CFLAGS)"
+	echo "LDFLAGS = $(LDFLAGS)"
+	echo "CC      = $(CC)"
 
-# Compilation
-.c.o:
-	$(CC) -c $(CFLAGS) $<
-
-# Linkage
-etlp: etlp.o
-	$(CC) -o $@ etlp.o $(LDFLAGS)
-
-dtlp: dtlp.o
-	$(CC) -o $@ dtlp.o $(LDFLAGS)
-
-stlp: etlp dtlp
+etlp dtlp: %: %.c
+	cc $^ -o $@ $(CFLAGS) $(LDFLAGS)
 
 clean:
-	rm -rf etlp etlp.o dtlp dtlp.o
+	rm -f etlp dtlp
 
-.PHONY: all options clean
+.PHONY: install options etlp dtlp clean
+
+.SILENT:
