@@ -11,7 +11,6 @@ Project is tested only on Ubuntu. Changes may be needed in order to run on other
 Copy and run this command in your terminal:
 
 ```
-
 sudo apt update
 sudo apt install -y gcc make libgmp-dev
 git clone github.com/Aerbil/timelock
